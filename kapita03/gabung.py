@@ -56,7 +56,7 @@ my_df.head()
 
 my_df.to_csv("scrapped_data.csv", index = False)  #Save the file as CSV , to download: click the folder icon on the left. the csv file should be there.
 
-!pip install yake
+pip install yake
 
 import yake
 
@@ -131,7 +131,7 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')
 plt.show()
 
-!pip install keybert
+pip install keybert
 
 from keybert import KeyBERT
 import spacy
@@ -177,11 +177,11 @@ keywords = [
     "Agama","Menjalankan","Ibadah","Mengingatkan","Memahami","Menggunakan"
 ]
 
-!pip install -qq google-play-scraper
+pip install -qq google-play-scraper
 
-!pip install google-play-scraper tqdm
+pip install google-play-scraper tqdm
 
-!pip install --upgrade google-play-scraper
+pip install --upgrade google-play-scraper
 
 import json
 import pandas as pd
