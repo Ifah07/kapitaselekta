@@ -9,7 +9,7 @@ Original file is located at
 
 #Referensi: https://play.google.com/store/apps/details?id=id.or.muhammadiyah.quran
 
-!pip install google-play-scraper
+pip install google-play-scraper
 
 from google_play_scraper import app
 
