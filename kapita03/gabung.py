@@ -14,8 +14,6 @@ import subprocess
 # Instalasi paket
 subprocess.check_call(["pip", "install", "google-play-scraper"])
 
-pip install google-play-scraper
-
 from google_play_scraper import app
 
 import pandas as pd
